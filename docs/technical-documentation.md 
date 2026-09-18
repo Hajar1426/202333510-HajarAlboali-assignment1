@@ -1,0 +1,49 @@
+## Website Sections
+
+### About Me
+
+The About Me section contains a short introduction about me as a Software Engineering student and some of my personal interests.
+
+### Projects
+
+The Projects section presents two previous university projects:
+
+1. **Database Management System** – A relational database developed using SQL and integrated with a Java application.
+2. **Interactive Star Game** – An interactive game developed entirely in Java.
+
+CSS Grid is used to display the project cards. Each project also includes an image representing the technologies used.
+
+### Contact
+
+The Contact section provides my email, GitHub, and LinkedIn information. It also includes a contact form where visitors can enter their name, email, and message.
+
+HTML form validation is implemented using the `required` attribute and the `email` input type.
+
+## JavaScript Functionality
+
+JavaScript is used to handle the contact form submission. Since the assignment does not require a backend, the default form submission is prevented.
+
+After a valid form submission, a confirmation message is displayed and the form fields are cleared.
+
+## Responsive Design
+
+The website uses CSS Flexbox, CSS Grid, and media queries to support desktop, tablet, and mobile screen sizes.
+
+On larger screens, the project cards are displayed side by side. On smaller screens, they stack vertically to make the content easier to read.
+
+The project images use `object-fit: contain` so the complete images remain visible when the screen size changes.
+
+## Testing
+
+The website was tested on both Safari and Google Chrome to check browser compatibility. Responsive behavior was also tested by resizing the browser window to represent desktop, tablet, and mobile screen sizes.
+
+Testing included:
+
+- Navigation links
+- Project image display
+- Responsive project cards
+- Contact form validation
+- JavaScript form interaction
+- GitHub and LinkedIn links
+
+The website functioned correctly in both tested browsers and adapted to different screen sizes without breaking the layout.
